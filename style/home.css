@@ -1,0 +1,698 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Ga+Maamli&family=Kalnia+Glaze:wght@100..700&display=swap');
+
+
+
+/* nabvar section  */
+.navbar{
+
+    margin: 1% 5%;
+    height: 10vh;
+    background-color: rgba(79, 69, 119, 0.788);
+    border-radius: 15px;
+    backdrop-filter:blur(9.84375px);
+    padding: 0px 50px;
+    
+}
+
+.nabvarul{
+
+    display: flex;
+    
+    padding-right: 20px;
+    
+
+}
+.nabvarul li{
+
+    
+    font-size: 1.5em;
+    padding-right: 30px;
+    list-style-type: none;
+    color: #ffffff;
+    
+    
+
+}
+
+.nabbarlogo{
+    height: 7vh;
+    width: 5vw;
+}
+
+
+
+
+/* section one  */
+
+
+.sectionone {
+
+    margin-top: -15vh;
+
+    background: 
+        url(../images/lens.svg) right no-repeat, 
+        url(../images/wires.svg) right no-repeat, 
+        linear-gradient(to right, rgb(17, 9, 48), #4e046e);
+    background-size: 
+        35% 70vh, /* size for lens.svg */
+        82vw 60vh, /* size for wires.svg */
+        cover;    /* size for the gradient */
+    background-position:
+        right ,  /* position for lens.svg */
+        right ,  /* position for wires.svg */
+        0 0;           /* position for the gradient */
+    padding: 1.5% 100px;
+    height: 95vh;
+
+
+    
+    
+    animation: rotate 10s linear infinite;
+}
+
+.bannerone{
+    margin: 10% 5% 0% 3%;
+    
+}
+
+ .divone{
+    width: 100%;
+    display: flex;
+
+    
+}
+
+ .divone img{
+    height: 15vh;
+    
+}
+
+ .divone h1{
+    color: white;
+    
+}
+
+.imagtext{
+    padding-top: 10px;
+    margin-left: -20px;
+}
+
+
+.hone{
+    font-size: 4em;
+    font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brtag{
+    font-size: 2.5em;
+    margin-top: -20px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.webtext{
+    color: white;
+    padding-left: 2.5vw;
+    font-size: 3.5em;
+    padding-top: 1.5vh;
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.timediv{
+    margin-top: 6%;
+    margin-left: 50px;
+}
+
+ .startedat{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 4em;
+}
+
+
+.date{
+
+    color: white;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.6em;
+
+}
+
+
+
+.webdevelopment{
+
+    padding-top: 110px;
+
+    margin-left: 26vw;
+}
+
+.blockchain{
+    padding-top: 130px;
+
+    margin-left: 35px;
+
+}
+.ai{
+    margin-top: 150px;
+
+    
+
+}
+.ai .Intelligence{
+    margin-left: 200px;
+
+    
+
+}
+.CryptoCurrency{
+    padding-top: 86px;
+
+    margin-left: -20px;
+    
+
+}
+
+
+ .desing{
+    color: white;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+
+.buttonclass{
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+.buttonclass button{
+    height: 36px;
+    width: 80px;
+    border-radius: 40px;
+    gap: 10px;
+    border: 6px solid #8423aa;
+    background-color: transparent;
+}
+
+.buttonsecclass{
+    gap: 16px;
+}
+.buttonsecclass H3{
+    
+    margin-top: 5PX;
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+
+
+
+
+
+/* section two css code */
+
+
+.sectiontwo{
+    
+    height: 95vh;
+    background-color: #1A0939;
+    
+    
+
+}
+
+.sectiontwodiv{
+
+    margin: 0px 5%;
+
+}
+
+
+.sectiontwodiv h1{
+
+    font-size: 5em;
+    color: white;
+    padding-top: 2%;
+
+}
+
+.rowcolum{
+    padding-top: 3%;
+}
+
+.rowcolum .col-6 p{
+
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 0px 5%;
+
+}
+
+
+
+.rowcolum .col-6 img{
+
+    width: 100%;
+    height: 55vh;
+    border-radius: 15px;
+
+}
+
+
+
+
+ /* section 3 technology image left to right   */
+
+
+.sectionthree{
+    background-color: #1A0939;
+    height: 327vh;
+
+    background: 
+    url(../images/bottom-layer.webp) bottom no-repeat,
+    url(../images/grid-bg.png) right no-repeat,
+     #1A0939;
+    background-size:  100%;    
+    background-position: bottom;
+                  
+    
+}
+
+
+
+.usingtechnology{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+
+.usingtechnology h1 {
+    position: relative;
+    font-size: 5rem;
+    padding: 3vh 5vw;
+    margin: 3vh 5vw;
+    background: linear-gradient(to right, #3b0552, #470563);
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.usingtechnology h1::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    z-index: -1;
+    border-radius: 16px;
+    background: linear-gradient(to right, #3b055260, #890cbe83);
+}
+
+
+
+.usingtechnology button{
+    margin: 3vh 5vw;
+    background: linear-gradient(to right, #85056541, #4302643f);
+    color: white;
+    border: none;
+    border-radius: 16px;
+}
+
+
+
+
+.sectionthreefirstdiv{
+
+    margin: 100px;
+    background: linear-gradient(to top,  #1a093900, #260939);
+    height: 150vh;
+    border-radius: 40px;
+    padding:  8vh 5vw;
+
+
+}
+
+
+
+.sectionthreefirstdiv {
+            
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+.sectionthreefulldata {
+    display: grid;
+    gap: 20px; /* Space between the grid items */
+    width: 100%;
+    margin-top: -220vh;
+    
+   
+}
+
+
+
+svg {
+    width: 50%;
+    margin-bottom: 20px; /* Space between SVG and grid */
+    margin-top: 20vh;
+}
+
+
+.item1{
+    
+    margin-top: -13vh;
+    background: linear-gradient(to right, #321444, #56056e);
+    height: 46vh;
+    width: 40vw;
+    padding: 5vh ;
+    border-radius: 40px;
+    text-align: left;
+    margin-left:-3% ;
+    
+}
+
+.item2 {
+
+    
+    margin-top: -12vh;
+    margin-left: 52%;
+    height: 46vh;
+    width: 40vw;
+    background: linear-gradient(to right, #630346, #105561);
+    text-align: left;
+    border-radius: 40px;
+    padding: 5vh;
+    
+   
+    
+}
+.item3{
+
+    margin-top: -1vh;
+    background: linear-gradient(to right, #033538, #8b5f99);
+    height: 46vh;
+    width: 40vw;
+    padding: 5vh ;
+    border-radius: 40px;
+    text-align: left;
+    margin-left:-3% ;
+} 
+ .item4{
+
+    margin-top: -1vh;
+    margin-left: 52%;
+    height: 46vh;
+    width: 40vw;
+    background: linear-gradient(to right, #59a157, #6b5f74);
+    text-align: left;
+    border-radius: 40px;
+    padding: 5vh;
+}
+ .item5 {
+
+    margin-top: -1vh;
+    background: linear-gradient(to right, #9f2deb, #c40a76);
+    height: 46vh;
+    width: 40vw;
+    padding: 5vh ;
+    border-radius: 40px;
+    text-align: left;
+    margin-left:-3% ;
+}
+.item6{
+
+    margin-top: -4vh;
+    margin-left: 52%;
+    height: 46vh;
+    width: 40vw;
+    background: linear-gradient(to right, #8e961e, #60377c);
+    text-align: left;
+    border-radius: 40px;
+    padding: 5vh;
+}
+
+
+.learnimage{
+    height: 50px;
+    width: 50px;
+    gap: 50px;
+    
+}
+
+
+.item1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.itemonediv{            
+    padding-bottom: 2vh;
+    
+}
+
+.ITEMONEul li{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2vh;
+    font-weight: 600;
+    
+
+}
+
+.itetwodiv img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+
+}
+.itemtwoul li{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2vh;
+    font-weight: 600;
+}
+
+
+.itemthreediv img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.itemthreeul{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2vh;
+    font-weight: 600;
+
+}
+
+
+.itefourdiv img{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.itemfourul li{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2vh;
+    font-weight: 600;
+}
+
+.item5 li{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2vh;
+    font-weight: 600;
+}
+
+.itemsixdiv img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.itemsixul{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2vh;
+    font-weight: 600;
+
+}
+
+.itemfivediv img{
+
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.itemfiveul li{
+
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1.5vh;
+    font-weight: 600;
+
+
+}
+
+
+
+.allitem:hover{
+
+    animation: allitem 0.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: allitem; 
+    -webkit-animation-duration: 1.0s; 
+    -webkit-animation-direction: alternate; 
+    -webkit-animation-iteration-count: infinite; 
+    
+}
+
+@-webkit-keyframes allitem{ 
+    from { 
+        -webkit-transform: translate3d(0, 0, 0); 
+        transform: translate3d(0, 0, 0); 
+    } 
+    to { 
+        -webkit-transform: translate3d(0, 200px, 0); 
+        transform: translate3d(0, 200px, 0); 
+    } 
+} 
+
+
+@keyframes allitem { 
+    from { 
+        transform: translate3d(0, 0, 0); 
+    } 
+    to { 
+        transform: translate3d(0, 20px, 0); 
+    } 
+} 
+
+
+
+
+/* section five css code */
+
+
+
+.sectionfive{
+            
+    background: linear-gradient(to top, rgb(86, 173, 255), #220C4B);
+    padding: 10% 0vw 15% 0vw;
+}
+
+
+.eventcard {
+  position: sticky;
+  top: 12vh;
+  height: 77vh;
+
+  border-radius: 30px;
+  border: none;
+}
+
+.card__inner {
+  will-change: transform;
+  
+  border-radius: 25px;
+  display: flex;
+  overflow: hidden;
+ 
+  transform-origin: center top;
+}
+
+.cards {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(var(--cards-count), var(--card-height));
+  gap: 40px;
+  background-color: transparent;
+}
+
+.card__image-container {
+  
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.card__content {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 600;
+  color: #16263a;
+}
+
+.card__description {
+  line-height: 1.4;
+  font-size: 24px;
+  color: #16263a;
+}
+
+
+.imagecassinallpic{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
